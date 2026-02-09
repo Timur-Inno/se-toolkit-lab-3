@@ -82,6 +82,9 @@ Create a new branch using any of these approaches:
 - [Create a branch using the `Terminal`](#create-a-branch-using-the-terminal)
 - [Create a branch using `GitLens`](#create-a-branch-using-gitlens)
 
+> [!IMPORTANT]
+> Replace the `<branch-name>` with the actual branch name.
+
 ### Create a branch using `GitHub`
 
 1. Go to your fork on `GitHub`.
@@ -102,9 +105,6 @@ Create a new branch using any of these approaches:
     ```terminal
     git checkout -b <branch-name>
     ```
-
-> [!IMPORTANT]
-> Replace `<branch-name>` with an actual branch name in all subsequent commands.
 
 ### Create a branch using `GitLens`
 
