@@ -32,6 +32,8 @@ async def create_new_learner(
     session: AsyncSession = Depends(get_session),
 ):
     return await create_learner(session, learner)
+
+# learners endpoint implemented
 # ===
 # PART A: GET endpoint
 # ===
